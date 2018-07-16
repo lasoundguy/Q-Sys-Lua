@@ -1,7 +1,7 @@
 --page Turn 422 lines by colbertd
 --[[ this script takes the pages in the commissioning tool and provides a method of stepping forward and backward throught them.  You have to put the page names in manually ]]
  
- 
+--[[ block quoting this out to test for character length 
 -- LINKS TO OTHER BLOCKS ______________________________________________________________________________________________________________________________________________________
 LecternIO = Component.New ("CommLecternIO")
 Mains = Component.New("CommLoudspeakerDriveMains")
@@ -421,6 +421,6 @@ end
 -- TIMER EVENT HANDLERS ___________________________________________________________________________________________________________________________________________________________________________________
  
 LogInTimer.EventHandler = LogInTimerFunction
-Remember, everything here is CONFIDENTIAL unless specifically stated otherwise.
+]]
 
-© 2014 Google Inc. All Rights Reserved.
+Controls.result.String = "this is version 3--page turn"
