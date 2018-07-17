@@ -16,7 +16,7 @@ GAVCS = Component.New ("GAVCS Communication Script")
  
  
  
--- GLOBAL VARRIABLES ___________________________________________________________________________________________________________________________________________________________
+-- GLOBAL VARIABLES ___________________________________________________________________________________________________________________________________________________________
 PageNameList = {} -- array that stores the page names (in the order you want them to be recalled in
 PageUseList = {} -- array that stores true or false values for the pages you
 PagesInOrder = {} -- array that stores the pages used in order
